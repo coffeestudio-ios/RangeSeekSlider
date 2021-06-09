@@ -21,8 +21,9 @@ let package = Package(
     targets: [
         .target(
             name: "RangeSeekSlider",
-            path: "Sources",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"
+        ),
 //        .testTarget(
 //            name: "",
 //            dependencies: ["RangeSeekSlider"]),
